@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4F0341; /* Tyrian purple background */
+    color: #FFFFFF; /* White text */
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF; /* White links */
+}
+
+a:hover {
+    color: #FF7F50; /* Peach-orange hover */
+}
+
+/* Buttons */
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn.primary {
+    background-color: #FFFFFF; /* White */
+    color: #4F0341; /* Tyrian purple */
+}
+
+.btn.primary:hover {
+    background-color: #FF7F50; /* Peach-orange */
+    color: #FFFFFF; /* White */
+    transform: scale(1.1);
+}
+
+.btn.secondary {
+    background-color: #4F0341; /* Tyrian purple */
+    color: #FFFFFF; /* White */
+}
+
+.btn.secondary:hover {
+    background-color: #FF7F50; /* Peach-orange */
+    transform: scale(1.1);
+}
+
+/* Header */
+.site-header {
+    background-color: #4F0341; /* Tyrian purple */
+    color: #FFFFFF; /* White */
+    padding: 1rem 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-banner {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.btn {
+    animation: fadeIn 0.5s ease-in-out;
+}
+.site-header {
+    background-color: #2C2C2C; /* Gunmetal gray */
+    color: #EAEAEA; /* Platinum */
+    padding: 1rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: #EAEAEA; /* Platinum */
+}
+
+.nav-links .btn {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.nav-links .btn.login {
+    background-color: #0F52BA; /* Blue sapphire */
+}
+
+.nav-links .btn.signup {
+    background-color: #FF7F50; /* Peach-orange */
+}
+
+/* Hero Banner */
+.hero-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    background: linear-gradient(135deg, #FF7F50, #0F52BA); /* Peach-orange to Blue sapphire */
+    color: #EAEAEA; /* Platinum */
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+}
+
+.hero-content p {
+    margin: 1rem 0;
+}
+
+.hero-content .btn.primary {
+    background-color: #2C2C2C; /* Gunmetal gray */
+    color: #EAEAEA; /* Platinum */
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+}
+
+/* Course Section */
+.course-section {
+    padding: 2rem 0;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}

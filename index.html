@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Master your future with top-rated online courses in tech, business, and creativity." />
+  <meta name="keywords" content="online courses, e-learning, tech courses, business, design, development, marketing" />
+  <meta name="author" content="Your Company Name" />
+  <title>LearnPro Academy – Premium Online Courses</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="https://images.pexels.com/photos/7973202/pexels-photo-7973202.jpeg?auto=compress&cs=tinysrgb&w=300&h=200" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="/" class="logo">LearnPro</a>
+      <ul class="nav-links">
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#instructors">Instructors</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="/login" class="btn login">Login</a></li>
+        <li><a href="/signup" class="btn signup">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero-banner container" aria-label="Hero">
+    <div class="hero-content">
+      <h1>Upgrade Your Skills. Anytime. Anywhere.</h1>
+      <p>Explore expert-led courses designed to help you grow in tech, business, and more.</p>
+      <a href="#courses" class="btn primary">Browse Courses</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://shorturl.at/5uEpp" alt="Learning illustration" width="300" height="200" />
+    </div>
+  </section>
+
+  <!-- Course Listings -->
+  <section id="courses" class="course-section container">
+    <h2>Featured Courses</h2>
+    <div class="course-grid">
+        <article class="course-card">
+            <img src="https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=300&h=200" alt="Course thumbnail" width="300" height="200" />
+            <h3>Full-Stack Web Development</h3>
+            <p>Master HTML, CSS, JavaScript, React & Node.js</p>
+            <span class="price">$129</span>
+            <button class="btn secondary enroll-btn" data-course-id="1">Enroll Now</button>
+        </article>
+
+        <article class="course-card">
+            <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=300&h=200" alt="Course thumbnail" width="300" height="200" />
+            <h3>Data Science</h3>
+            <p>Learn Python, R, and Data Visualization</p>
+            <span class="price">$149</span>
+            <button class="btn secondary enroll-btn" data-course-id="3">Enroll Now</button>
+        </article>
+
+        <article class="course-card">
+            <img src="https://images.pexels.com/photos/17561470/pexels-photo-17561470/free-photo-of-smartphone-and-laptop-creative-electronic-devices.jpeg?auto=compress&cs=tinysrgb&w=300&h=200" alt="Course thumbnail" width="300" height="200" />
+            <h3>UI/UX Design</h3>
+            <p>Design stunning interfaces with Figma</p>
+            <span class="price">$99</span>
+            <button class="btn secondary enroll-btn" data-course-id="4">Enroll Now</button>
+        </article>
+
+        <article class="course-card">
+            <img src="https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=300&h=200" alt="Course thumbnail" width="300" height="200" />
+            <h3>Cloud Computing</h3>
+            <p>Learn AWS, Azure, and Google Cloud</p>
+            <span class="price">$139</span>
+            <button class="btn secondary enroll-btn" data-course-id="6">Enroll Now</button>
+        </article>
+
+        <article class="course-card">
+            <img src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=300&h=200" alt="Course thumbnail" width="300" height="200" />
+            <h3>Cybersecurity</h3>
+            <p>Protect systems with ethical hacking</p>
+            <span class="price">$129</span>
+            <button class="btn secondary enroll-btn" data-course-id="7">Enroll Now</button>
+        </article>
+
+        <article class="course-card">
+            <img src="https://rb.gy/607vrl" alt="Course thumbnail" width="300" height="200" />
+            <h3>Mobile App Development</h3>
+            <p>Build apps with Flutter and React Native</p>
+            <span class="price">$149</span>
+            <button class="btn secondary enroll-btn" data-course-id="8">Enroll Now</button>
+        </article>
+
+        <article class="course-card">
+            <img src="https://rb.gy/607vrl" alt="Course thumbnail" width="300" height="200" />
+            <h3>Blockchain Development</h3>
+            <p>Learn Solidity and Smart Contracts</p>
+            <span class="price">$159</span>
+            <button class="btn secondary enroll-btn" data-course-id="9">Enroll Now</button>
+        </article>
+
+        <article class="course-card">
+            <img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=300&h=200" alt="Course thumbnail" width="300" height="200" />
+            <h3>Game Development</h3>
+            <p>Create games with Unity and Unreal Engine</p>
+            <span class="price">$169</span>
+            <button class="btn secondary enroll-btn" data-course-id="10">Enroll Now</button>
+        </article>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="features-section container">
+    <h2>Why Learn With Us?</h2>
+    <div class="features-grid">
+      <div class="feature-item">
+        <img src="https://images.pexels.com/photos/1462630/pexels-photo-1462630.jpeg?auto=compress&cs=tinysrgb&w=300&h=200" alt="Expert Instructors" width="300" height="200" />
+        <h4>Expert Instructors</h4>
+        <p>Courses taught by real-world professionals.</p>
+      </div>
+      <div class="feature-item">
+        <img src="https://images.pexels.com/photos/4443162/pexels-photo-4443162.jpeg?auto=compress&cs=tinysrgb&w=300&h=200" alt="Lifetime Access" width="300" height="200" />
+        <h4>Lifetime Access</h4>
+        <p>Study at your own pace with unlimited access.</p>
+      </div>
+      <div class="feature-item">
+        <img src="https://images.pexels.com/photos/247819/pexels-photo-247819.jpeg?auto=compress&cs=tinysrgb&w=300&h=200" alt="Certified Learning" width="300" height="200" />
+        <h4>Certified Learning</h4>
+        <p>Earn certificates to boost your career profile.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instructors -->
+  <section id="instructors" class="instructors-section container">
+    <h2>Meet Your Mentors</h2>
+    <div class="instructor-grid">
+        <div class="instructor-card">
+            <img src="https://shorturl.at/9Dpy2" alt="Jane Atieno – Web Developer" width="300" height="200" />
+            <h4>Jane Doe</h4>
+            <p>Senior Full-Stack Developer & Trainer</p>
+        </div>
+        <div class="instructor-card">
+            <img src="https://shorturl.at/O0iYa" alt="John Ndung'u – Data Scientist" width="300" height="200" />
+            <h4>John Smith</h4>
+            <p>Data Scientist & AI Specialist</p>
+        </div>
+        <div class="instructor-card">
+            <img src="https://shorturl.at/afxxE" alt="Emily Johnson – UX Designer" width="300" height="200" />
+            <h4>Emily Johnson</h4>
+            <p>UX/UI Designer & Creative Strategist</p>
+        </div>
+        <div class="instructor-card">
+            <img src="https://shorturl.at/4e4iZ" alt="Michael Brown – Marketing Expert" width="300" height="200" />
+            <h4>Michael Brown</h4>
+            <p>Digital Marketing Guru</p>
+        </div>
+        <div class="instructor-card">
+            <img src="https://shorturl.at/8k895" alt="Sophia Lethotso – Cloud Engineer" width="300" height="200" />
+            <h4>Sophia Lee</h4>
+            <p>Cloud Engineer & DevOps Specialist</p>
+        </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq-section container">
+    <h2>Frequently Asked Questions</h2>
+    <details>
+      <summary>How do I access the courses after purchase?</summary>
+      <p>You’ll receive lifetime access through your dashboard after payment.</p>
+    </details>
+    <details>
+      <summary>Do I get a certificate?</summary>
+      <p>Yes! Every course comes with a shareable completion certificate.</p>
+    </details>
+    <!-- More FAQs -->
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section container">
+    <h2>Contact Us</h2>
+    <form id="contactForm" novalidate>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="btn primary">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer container">
+    <div class="footer-grid">
+      <div>
+        <h4>LearnPro</h4>
+        <p>&copy; 2025 LearnPro Academy. All rights reserved.</p>
+      </div>
+      <div>
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#instructors">Instructors</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Follow Us</h5>
+        <ul class="social-links">
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
